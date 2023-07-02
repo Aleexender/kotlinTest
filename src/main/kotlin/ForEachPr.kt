@@ -2,10 +2,17 @@ import java.util.InputMismatchException
 
 fun main() {
 
-    val numbers = listOf<Int>(1, 2, 3)
+    val numbers = listOf(1, 2, 3)
+    val nums = mutableListOf<Int>(1, 2, 3)
+    nums.add(4)
+
+    for (nu in nums) {
+        println(nu)
+    }
+
 
     for (number in numbers) {
-//        println(number)
+        println(number)
     }
 
     var asd = 8;
