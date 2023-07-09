@@ -13,8 +13,15 @@ fun main() {
 
 }
 
-public class Person(val name: String, var age: Int) { // 여기에 생성자 추가
+public class Person( name: String, var age: Int) { // 여기에 생성자 추가
 
+//    val name = name
+//        get() = field.uppercase()
+
+    var name = name
+        set(value){
+            field = value.uppercase()
+        }
     init { // 클래스가 초기화되는 시점에 한 번 호출되는 블록
         if (age <= 0) {
             throw IllegalArgumentException("나이는 $age 일수 없다")
@@ -26,4 +33,11 @@ public class Person(val name: String, var age: Int) { // 여기에 생성자 추
     constructor(): this("홍길동"){// 1번쨰 생성자 를 부름
         println("부생성자 2")
     }
+
+
+    val isAdult: Boolean
+        get() = this.age >= 20
+
+
+
 }
