@@ -11,9 +11,9 @@ fun parseInt(str: String): Int {
 
 fun parseInt2(str: String): Int? {
     return try {
-        return str.toInt()
+       str.toInt()
     } catch (e: NumberFormatException) {
-        return null
+        null
     }finally {
         println("몰랑")
     }
