@@ -1,11 +1,11 @@
 fun main() {
 
-    var person = Person("김정훈")
+//    var person = Person("김정훈")
 
 }
 
-fun Person(s: String): Unit { // Unit == void
+//fun Person(s: String): Unit { // Unit == void
+//
+//    println(s + " 이라고 합니다")
 
-    println(s + " 이라고 합니다")
 
-}
