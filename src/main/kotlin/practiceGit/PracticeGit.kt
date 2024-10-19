@@ -7,5 +7,6 @@ fun main() {
     println(a + b)
     println()
     var c = "asd"
-    
+
+    println(c.plus("1234"))
 }
