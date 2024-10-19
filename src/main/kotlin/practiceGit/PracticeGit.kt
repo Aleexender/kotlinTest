@@ -8,5 +8,5 @@ fun main() {
     println()
     var c = "asd"
 
-    println(c.plus("1234"))
+    println("ㅁㄴㅇㅁㄴㅇ")
 }
