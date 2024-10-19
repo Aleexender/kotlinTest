@@ -9,4 +9,5 @@ fun main() {
     var c = "asd"
 
     println("ㅁㄴㅇㅁㄴㅇ")
+    println()
 }
