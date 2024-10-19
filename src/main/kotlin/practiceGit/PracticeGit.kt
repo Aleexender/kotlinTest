@@ -5,4 +5,5 @@ fun main() {
     var b = 67
 
     println(a + b)
+    println("dddd")
 }
